@@ -1,0 +1,23 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Entornos virtuales de las herramientas Python
+tools/.venv/
+__pycache__/
+*.pyc
+
+# Libros de prueba (se descargan con tools/fetch_testbook.py, no se versionan)
+/testdata/*.txt
+
+# Salidas de build nativas
+/build/
+*.o
+*.out
+native_cli
+
+# Editor / SO
+.DS_Store
+.vscode/
+*.swp
